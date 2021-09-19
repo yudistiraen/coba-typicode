@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="flex-container">
+        <div class="user-name-container">
+            {{detailPost.userId}}
+        </div>
+        <div class="content-container">
+            <div class="detail-post">
+                {{detailPost.body}}
+            </div>
+            <div class="comments">
+                <div class="comments-title">
+                    All Comments
+                </div>
+                <div class="comment-container" *ngFor="let c of coments;">
+                    <div class="comment-user">
+                        {{c.id}}
+                    </div>
+                    <div class="comment-body">
+                        {{c.body}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

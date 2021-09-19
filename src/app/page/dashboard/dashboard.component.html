@@ -1,0 +1,16 @@
+<div>
+    <app-header></app-header>
+    <div
+        *ngFor="let p of showedPosts;"
+    >
+        <app-post
+        [entry]="p"
+        ></app-post>
+    </div>
+    <mat-paginator [length]="postLength"
+               [pageSize]="pageSize"
+               [pageSizeOptions]="pageSizeOptions"
+               (page)="handlePage($event)"
+               aria-label="Select page">
+    </mat-paginator>
+</div>

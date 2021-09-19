@@ -1,0 +1,18 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.entry-container {
+    justify-content: flex-start !important ;
+    align-items: flex-start !important;
+    cursor: pointer;
+}
+.entry-container .mat-grid-tile-content {
+    width: 100%; display: flex; align-items: flex-start !important;
+}
+
+.mat-grid-tile-contente {
+    justify-content: flex-start !important ;
+    align-items: flex-start !important;
+}

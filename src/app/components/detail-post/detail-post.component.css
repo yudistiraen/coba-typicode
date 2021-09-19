@@ -1,0 +1,45 @@
+
+.container {
+    margin: auto;
+    max-width: 500px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.user-name-container {
+    padding: 20px;
+    text-align: right;
+    line-height: 50px;
+    width: 23%;
+}
+.content-container {
+    padding: 20px;
+    width: 60%;
+
+}
+
+.comments-title {
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+
+.comment-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment-user {
+    padding: 20px;
+    text-align: right;
+    line-height: 50px;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.comment-body {
+    padding: 20px;
+    width: 50%;
+    border: 1px solid black;
+}

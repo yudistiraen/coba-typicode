@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Login Page</h2>
+    <form (ngSubmit)="onSubmit()">
+        <div>
+            <mat-form-field class="example-full-width">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Email" name="email" [(ngModel)]="email">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" placeholder="Password" name="password" [(ngModel)]="password">
+            </mat-form-field>
+        </div>
+        <input type="submit" value="Login" class="login-btn"/>
+    </form>
+</div>
+

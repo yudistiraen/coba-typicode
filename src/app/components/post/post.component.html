@@ -1,0 +1,13 @@
+<div class="container">
+    <mat-grid-list cols="4" rowHeight="5rem" style="margin-bottom: 10px" (click)="onDetailPost(entry)">
+        <mat-grid-tile [rowspan]="2">
+            <div style="margin-bottom: auto">
+                {{entry.userId}}
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="3" class="entry-container">
+                {{entry.body}}
+        </mat-grid-tile>
+        <mat-grid-tile>{{totalComents}}</mat-grid-tile>
+    </mat-grid-list>
+</div>

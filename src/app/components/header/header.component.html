@@ -1,0 +1,12 @@
+<p>
+    <mat-toolbar>
+    <span>Cinta Coding</span>
+    <span class="example-spacer"></span>
+    <a *ngIf="!userName;" routerLink="login" class="example-icon favorite-icon login-btn" aria-label="Example icon-button with heart icon">
+        Login
+    </a>
+    <div *ngIf="userName">
+        Welcome, {{userName}}
+    </div>
+    </mat-toolbar>
+</p>
