@@ -1,8 +1,15 @@
 # MyFirstProject
 
-Untuk Clone Project, silahkan menggunakan `git clone https://github.com/yudistiraen/coba-typicode.git`
+# clonning project
+$ git clone https://github.com/yudistiraen/coba-typicode.git
 
-## Development server
+# move to project
+$ cd coba-typicode
 
-Untuk menjalankan Server Develop di local, gunakan command `ng serve` di terminal Anda.
-Secara default, server akan berjalan pada `localhost:4500`
+# install dependencies
+$ yarn install
+or
+$ npm install
+
+# serve with hot reload at localhost:4200
+$ ng serve
