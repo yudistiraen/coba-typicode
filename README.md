@@ -1,6 +1,6 @@
 # MyFirstProject
 
-Untuk Clone Project, silahkan menggunakan `git clone `
+Untuk Clone Project, silahkan menggunakan `git clone https://github.com/yudistiraen/coba-typicode.git`
 
 ## Development server
 
